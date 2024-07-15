@@ -60,7 +60,7 @@ function CreateBookingForm({ onCloseModal }) {
             required: "this field is required",
           })} />
         </FormRow>
-        <FormRow label="Cabin price" error={errors?.cabinPrice?.message}>
+        <FormRow label="Room price" error={errors?.cabinPrice?.message}>
           <Input type="number" id="cabinPrice" disabled={isCreating}{...register('cabinPrice', {
             required: "this field is required",
           })} />
@@ -102,7 +102,7 @@ function CreateBookingForm({ onCloseModal }) {
           </DualFormRow>
         </FormRow>
 
-        <FormRow label="Cabin id" error={errors?.cabinId?.message}>
+        <FormRow label="Room id" error={errors?.cabinId?.message}>
           <Input type="number" id="cabinId" disabled={isCreating} {...register('cabinId', {
             required: "this field is required",
           })} />

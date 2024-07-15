@@ -47,7 +47,7 @@ function CreateCabinForm({ capinToedit = {}, onCloseModal }) {
   return (
     <>
       <Form type={onCloseModal ? "modal" : "regular"} onSubmit={handleSubmit(onSubmit, onError)}>
-        <FormRow label="cabin name" error={errors?.name?.message}>
+        <FormRow label="Room name" error={errors?.name?.message}>
           <Input type="text" id="name" disabled={isWorking}
             {...register('name', {
               required: 'this field is required '
