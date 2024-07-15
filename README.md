@@ -67,10 +67,8 @@ Start the development server:
 npm start
 \`\`\`
 
+
 ## Contribution
 
 Contributions to improve the application are encouraged. Feel free to fork the repository, make changes, and submit a pull request with your updates.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
